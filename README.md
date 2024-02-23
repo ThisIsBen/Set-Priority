@@ -26,7 +26,7 @@ Set the priority of a thread：
 ```
 Thread thread1 = new Thread(SomeMethod)
 {
-Name = "Thread 1"
+  Name = "Thread 1"
 };
 //Setting the thread Priority as Normal
 thread1.Priority = ThreadPriority.Normal;
